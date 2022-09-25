@@ -13,13 +13,13 @@
 - Payment options
 
 ### Tools
-- Building Framework: [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- Frontend: [Chakra-ui](https://chakra-ui.com/) - Create accessible React apps with speed
-- Hosting platform: [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-- Superfluid to steam money for  users
-_ login users with Unstoppable domain
-- IPFS and NFT.Storage for users to share the experiences
-- Polygon to deploy our smart contract and to mint nfts.
+Tools use to Build this Project:
+- Building Framework: React.js and Chakra-UI 
+- The smart contract that is responsible for listing, hosting, and minting NFTs for the users to share their experiences is deployed. because it is fast, cheap, and scalable.
+- We used the Unstoppable Domain to onboard users for safe track of identity. 
+- After the user has reversed their booking and confirmed - Payment can be done through the reliable money stream from Superfluid.
+- After the payment process the user can mint an NFT of their experiences during the stay and share it. here we using IPFS and NFT. Storage to handle the data storage and Polygon for the transaction.
+- Keeping our users well informed or updated we used  EPNS  to notify our users of the newly listed property and other experiences on the dApp.
 
 
 ### Project Feature
