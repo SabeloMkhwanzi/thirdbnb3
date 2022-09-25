@@ -4,7 +4,7 @@ import { Button } from "@chakra-ui/react";
 
 const uauth = new UAuth({
   clientID: "6f5088be-dc48-4799-9c68-99418f13325c",
-  redirectUri: "http://localhost:3000",
+  redirectUri: "https://thirdbnb.vercel.app/",
   scope: "openid wallet",
 });
 
