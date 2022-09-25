@@ -16,6 +16,11 @@
 - Building Framework: [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - Frontend: [Chakra-ui](https://chakra-ui.com/) - Create accessible React apps with speed
 - Hosting platform: [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Superfluid to steam money for  users
+_ login users with Unstoppable domain
+- IPFS and NFT.Storage for users to share the experiences
+- Polygon to deploy our smart contract and to mint nfts.
+
 
 ### Project Feature
 
