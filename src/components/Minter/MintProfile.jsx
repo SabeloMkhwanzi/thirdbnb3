@@ -201,6 +201,20 @@ const MintProfile = () => {
               updateFormInput({ ...formInput, collectionPoint: e.target.value })
             }
           />
+          <Input
+            placeholder="number of people"
+            className="mt-5 border rounded p-4 text-xl"
+            onChange={(e) =>
+              updateFormInput({ ...formInput, weight: e.target.value })
+            }
+          />
+          <Input
+            placeholder="your rate from 1-5"
+            className="mt-5 border rounded p-4 text-xl"
+            onChange={(e) =>
+              updateFormInput({ ...formInput, price: e.target.value })
+            }
+          />
 
           <Box>
             <form>
