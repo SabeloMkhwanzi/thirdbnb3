@@ -1,23 +1,70 @@
-# Boilerplate React Typescript Ethers.js Hardhat Project (Frontend)
+### EthGobal - EthOnline 2022
 
-If you haven't already read the Hardhat README for this project, checkout the Hardhat [README.md](https://github.com/ChainShot/hardhat-ethers-react-ts-starter/tree/main/README.md) first and then come back to this README file.
+#### Project name: Thirdbnb - A Blockchain-based Airbnb contender DEFI/NFT platfom: 
 
-This Dapp was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using the Typescript template. Additionally it makes use of the popular [@web3-react](https://www.npmjs.com/package/web3-react) npm package. The Metamask integration code found in this Dapp is heavily based on the code found in the [@web3-react example project](https://github.com/NoahZinsmeister/web3-react/tree/v6/example). For simplicity only the Metamask (injected) blockchain provider is used in this Dapp.
+### Project Description
+- A Blockchain-based Airbnb contender. Decentralized platform for the home-sharing short and long-term stays using cryptocurrency payment methods. Giving hosts and guests more control, ownership, and lower fees on the Blockchain
 
-The Dapp is a simple, but complete React Dapp that interacts with a locally run 'Greeter' smart contract for developers new to web3. It introduces the developer to the following:
+#### Let understand the problem we solving:
+- High fees - existing Bnb charge very high fees for booking cost.
+- Centralized and controlled communications - loss of direct host-guest relationships
+- Transactional processes, not relationships - a shift from encouraging high-value, peer-to-peer relationships to transactional ones
+- Lower levels of trust - trust between hosts and guests, as well as towards the platforms themselves
+- Payment options
 
-1. How to use React and the [@web3-react](https://github.com/NoahZinsmeister/web3-react) npm package to connect to Metamask and display data regarding the connected Metamask wallet in the UI, such as the connected wallet's address, balance and nonce.
-2. How to deploy a new instance of the Greeter contract to the local Hardhat blockchain from the UI.
-3. How to perform a read-only call to the blockchain and display data stored on the blockchain in the UI.
-4. How to update the state of the local blockchain by updating the Greeter contract's `greeting` message via a transaction from the UI.
-5. How to keep the data of the connected wallet up-to-date by listening to new block events via ethers.js as new blocks are mined.
+### Tools
+- Building Framework: [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- Frontend: [Chakra-ui](https://chakra-ui.com/) - Create accessible React apps with speed
+- Hosting platform: [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-To start the frontend:
+### Project Feature
 
-1. `cd` to the frontend directory of this project
-2. Run `yarn` to install the necessary dependencies
-3. `yarn start` to startup the webserver
-4. Visit `localhost:3000` in your browser to interact with the browser Dapp and the Greeter contract running on your local Hardhat blockchain.
+##### 1. Home Page
 
-AirBlock deployed to 0x0A60cEC1C14D536C25D4c78617F33E54AAa09eA6
-# thirdbnb3
+![HomePage]()
+
+#### Live website: [thirdbnb]()
+
+#### GitHub Repository: [github.com/SabeloMkhwanazi](https://github.com/SabeloMkhwanzi/thirdbnb3)
+
+#### Demo video: [video]()
+
+#### Project Start: Date: 2 - 25 September, 2022
+
+#### Wallet Address : 0xF975206a46b4eD9f5F008AF9813B19bf083d94eE
+
+#### Running the app
+
+### Getting Started
+
+First, clone the repo with the following git command:
+
+```bash
+git clone https://github.com/SabeloMkhwanzi/thirdbnb3
+```
+
+Second, open a terminal in the root directory of the project and run:
+
+```bash
+npm install
+```
+
+to install all the package dependencies for the project
+
+Create a .env file in the root folder and populate it with the following variables:
+
+```
+
+REACT_APP_COVALENT_API=
+
+```
+
+Finally, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Happy Hacking!😊
