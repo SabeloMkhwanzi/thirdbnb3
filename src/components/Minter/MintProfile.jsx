@@ -194,7 +194,7 @@ const MintProfile = () => {
               updateFormInput({ ...formInput, country: e.target.value })
             }
           />
-          <input
+          <Input
             placeholder="Enter Address of Collecetion Point"
             className="mt-5 border rounded p-4 text-xl"
             onChange={(e) =>
