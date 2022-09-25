@@ -27,8 +27,8 @@ _ login users with Unstoppable domain
 ##### 1. Home Page
 
 ![HomePage](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/Screenshot%202022-09-25%20213827.jpg)
-![Page]()
-![Page]()
+![Page](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/Screenshot%202022-09-25%20213934.jpg)
+![Page](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/Screenshot%202022-09-25%20214017.jpg)
 
 #### Live website: [thirdbnb]()
 
@@ -59,12 +59,6 @@ npm install
 to install all the package dependencies for the project
 
 Create a .env file in the root folder and populate it with the following variables:
-
-```
-
-REACT_APP_COVALENT_API=
-
-```
 
 Finally, run the development server:
 
