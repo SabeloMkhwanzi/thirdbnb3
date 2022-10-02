@@ -29,7 +29,7 @@
 #### 1. Home Page
 
 ![HomePage](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/Screenshot%202022-09-25%20213827.jpg)
-![Page](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/Screenshot%202022-09-25%20213934.jpg)
+![Page](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/thirdbnb1%20Screenshot%202022-10-02%20.jpg)
 ![Page](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/thirdbnb%20Screenshot%202022-10-02%20.jpg)
 
 #### Live website: [thirdbnb](https://thirdbnb.vercel.app/)
