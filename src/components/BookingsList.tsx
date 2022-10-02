@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import { ethers } from "ethers";
 import type { Booking, Property } from "../types";
 
-import { Box, Image, Text, Button, HStack, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  Image,
+  Text,
+  Button,
+  HStack,
+  VStack,
+  SimpleGrid,
+} from "@chakra-ui/react";
 import { CreateFlow } from "./Streaming/CreateFlow";
 import Create from "./Minter/create";
 
@@ -311,7 +319,7 @@ export const BookingsList = ({
                       borderColor="teal"
                       borderRadius="2xl"
                       maxW="100%"
-                      left="-38%"
+                      left="-30%"
                       mb="3"
                     >
                       <svg
@@ -329,14 +337,14 @@ export const BookingsList = ({
                       Confirmed booking
                     </Button>
 
-                    <HStack spacing={5} mt={5}>
+                    <SimpleGrid columns={[1, null, 2]} spacing={2}>
                       <Box height="500">
                         <CreateFlow />
                       </Box>
                       <Box height="500">
                         <Create />
                       </Box>
-                    </HStack>
+                    </SimpleGrid>
                   </VStack>
                 </>
               ) : null}
