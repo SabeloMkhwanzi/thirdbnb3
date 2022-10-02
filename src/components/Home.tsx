@@ -80,6 +80,27 @@ const Home = () => {
               <option id="db" label="Dubai">
                 Dubai
               </option>
+              <option id="db" label="Sydney ">
+                Sydney
+              </option>
+              <option id="db" label="Toronto">
+                Toronto
+              </option>
+              <option id="db" label="Paris">
+                Paris
+              </option>
+              <option id="db" label="Cape Town">
+                Cape Town
+              </option>
+              <option id="db" label="Turkey">
+                Turkey
+              </option>
+              <option id="db" label="Spain">
+                Spain
+              </option>
+              <option id="db" label="Netherlands">
+                Netherlands
+              </option>
             </Select>
           </Box>
 
