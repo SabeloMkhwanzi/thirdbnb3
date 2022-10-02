@@ -285,7 +285,7 @@ const MintProfile = () => {
             fontSize={{ base: "ms", md: "md" }}
             cursor="pointer"
             textAlign="center"
-            borderColor="#ff0057"
+            borderColor="#FF0057"
             borderRadius="2xl"
             maxW="100%"
             onClick={(e) => mintNFTToken(e, uploadedFile)}
