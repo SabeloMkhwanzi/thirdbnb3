@@ -97,7 +97,7 @@ export const CreateFlow = () => {
 
   return (
     <Box
-      minWidth="409"
+      minWidth="350"
       height="300"
       bg="white"
       _dark={{ bg: "gray.900" }}
@@ -112,6 +112,8 @@ export const CreateFlow = () => {
       <Form>
         <FormGroup className="mb-3" width="300px">
           <Input
+            ml="5"
+            maxWidth="300"
             name="recipient"
             value={recipient}
             onChange={handleRecipientChange}
@@ -120,6 +122,8 @@ export const CreateFlow = () => {
         </FormGroup>
         <FormGroup className="mb-3">
           <Input
+            ml="5"
+            maxWidth="300"
             name="flowRate"
             value={flowRate}
             onChange={handleFlowRateChange}
