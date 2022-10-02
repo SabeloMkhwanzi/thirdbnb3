@@ -16,13 +16,15 @@
 
 ### Tools
 
-- Building Framework: [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- Building Framework: [https://reactjs.org/](https://reactjs.org/) - A JavaScript library for building user interfaces
 - Frontend: [Chakra-ui](https://chakra-ui.com/) - Create accessible React apps with speed
 - Hosting platform: [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-- Superfluid to steam money for users
-  \_ login users with Unstoppable domain
-- IPFS and NFT.Storage for users to share the experiences
-- Polygon to deploy our smart contract and to mint nfts.
+- Hardhat: [https://hardhat.org/docs](https://hardhat.org/docs) - Hardhat is a development environment for Ethereum software
+- Superfluid to steam money for users: [https://www.superfluid.finance/](https://www.superfluid.finance/) - Superfluid is an asset streaming protocol that brings subscriptions 
+- Unstoppable domain to login users: [https://docs.unstoppabledomains.com/](https://docs.unstoppabledomains.com/) - Login with Unstoppable build a universal Web3 login that authenticates your users.
+- IPFS and NFT.Storage for users to share the experiences: [https://ipfs.io/](https://ipfs.io/) - A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.
+-  NFT.Storage we to mint on Nfts and store them on NFT.Storage: [https://nft.storage/](https://nft.storage/) - Free decentralized storage and bandwidth for NFTs on  IPFS and  Filecoin.
+- Polygon to deploy our smart contract and to mint nfts
 
 ### Project Feature
 
