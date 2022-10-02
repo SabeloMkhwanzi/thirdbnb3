@@ -1,12 +1,12 @@
-### EthGobal - EthOnline 2022
+# EthGlobal - EthOnline 2022
 
-#### Project name: Thirdbnb - A Blockchain-based Airbnb contender DEFI/NFT platfom:
+## Project name: Thirdbnb - A Blockchain-based Airbnb contender DEFI/NFT platform
 
 ### Project Description
 
 - A Blockchain-based Airbnb contender. Decentralized platform for the home-sharing short and long-term stays using cryptocurrency payment methods. Giving hosts and guests more control, ownership, and lower fees on the Blockchain
 
-#### Let understand the problem we solving:
+#### Let understand the problem we solving
 
 - High fees - existing Bnb charge very high fees for booking cost.
 - Centralized and controlled communications - loss of direct host-guest relationships
@@ -26,7 +26,7 @@
 
 ### Project Feature
 
-##### 1. Home Page
+#### 1. Home Page
 
 ![HomePage](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/Screenshot%202022-09-25%20213827.jpg)
 ![Page](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/Screenshot%202022-09-25%20213934.jpg)
