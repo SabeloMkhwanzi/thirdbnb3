@@ -8,7 +8,16 @@ import { ethers } from "ethers";
 import Web3Modal from "web3modal";
 import Waste from "../../utils/Waste.json";
 import { wastemarketplaceAddress } from "../../config";
-import { Text, Box, Button, Input, Textarea, Select } from "@chakra-ui/react";
+import {
+  Text,
+  Box,
+  Button,
+  Input,
+  Textarea,
+  Select,
+  HStack,
+} from "@chakra-ui/react";
+import { Stack } from "react-bootstrap";
 
 // eslint-disable-next-line max-len
 const APIKEY =
@@ -146,7 +155,7 @@ const MintProfile = () => {
       <Box
         bg="white"
         _dark={{ bg: "gray.900" }}
-        width="max-content"
+        maxWidth="550"
         borderRadius="lg"
         rounded="lg"
         shadow="lg"
@@ -157,103 +166,118 @@ const MintProfile = () => {
           Mint Your Experience
         </Text>
         <Box width="max-content">
-          <Select
-            textAlign="center"
-            onChange={(e) =>
-              updateFormInput({ ...formInput, name: e.target.value })
-            }
-          >
-            <option value="Select Experience">Select Experience</option>
-            <option value="Travel with family">Travel with family</option>
-            <option value="Travel with friends">Travel with friends</option>
-            <option value="The group tour">The group tour</option>
-            <option value="The package trip">The package trip</option>
-            <option value="The weekend break">The weekend break</option>
-            <option value="Multi-day tour or cruise">
-              Multi-day tour or cruise
-            </option>
-            <option value="Backpacking">Backpacking</option>
-            <option value="Travel for an event">Travel for an event</option>
-            <option value="Treat for to some luxury">
-              Treat for to some luxury
-            </option>
-            <option value="A once-in-a-lifetime adventure">
-              A once-in-a-lifetime adventure
-            </option>
-          </Select>
-          <Textarea
-            placeholder="Share your Experience"
-            onChange={(e) =>
-              updateFormInput({ ...formInput, description: e.target.value })
-            }
-            rows={2}
-          />
-          <Input
-            placeholder="Location"
-            onChange={(e) =>
-              updateFormInput({ ...formInput, country: e.target.value })
-            }
-          />
-          <Input
-            placeholder="Enter Address of Collecetion Point"
-            className="mt-5 border rounded p-4 text-xl"
-            onChange={(e) =>
-              updateFormInput({ ...formInput, collectionPoint: e.target.value })
-            }
-          />
-          <Input
-            placeholder="number of people"
-            className="mt-5 border rounded p-4 text-xl"
-            onChange={(e) =>
-              updateFormInput({ ...formInput, weight: e.target.value })
-            }
-          />
-          <Input
-            placeholder="your rate from 1-5"
-            className="mt-5 border rounded p-4 text-xl"
-            onChange={(e) =>
-              updateFormInput({ ...formInput, price: e.target.value })
-            }
-          />
-
-          <Box>
-            <form>
-              <Input type="file" onChange={handleFileUpload} />
-            </form>
-            {txStatus && <Text>{txStatus}</Text>}
-
-            {metaDataURL && (
-              <Text className="text-blue">
-                <a href={metaDataURL} className="text-blue">
-                  Metadata on IPFS
-                </a>
-              </Text>
-            )}
-
-            {txURL && (
-              <Text>
-                <a href={txURL} className="text-blue">
-                  mint transaction
-                </a>
-              </Text>
-            )}
-
-            {errorMessage}
-
-            {imageView && (
-              <iframe
-                className="mb-10"
-                title="Ebook "
-                src={imageView}
-                alt="NFT preview"
-                frameBorder="0"
-                scrolling="auto"
-                height="50%"
-                width="100%"
+          <Stack direction="vertical">
+            <Select
+              maxWidth="500"
+              textAlign="center"
+              onChange={(e) =>
+                updateFormInput({ ...formInput, name: e.target.value })
+              }
+            >
+              <option value="Select Experience">Select Experience</option>
+              <option value="Travel with family">Travel with family</option>
+              <option value="Travel with friends">Travel with friends</option>
+              <option value="The group tour">The group tour</option>
+              <option value="The package trip">The package trip</option>
+              <option value="The weekend break">The weekend break</option>
+              <option value="Multi-day tour or cruise">
+                Multi-day tour or cruise
+              </option>
+              <option value="Backpacking">Backpacking</option>
+              <option value="Travel for an event">Travel for an event</option>
+              <option value="Treat for to some luxury">
+                Treat for to some luxury
+              </option>
+              <option value="A once-in-a-lifetime adventure">
+                A once-in-a-lifetime adventure
+              </option>
+            </Select>
+            <Textarea
+              mt="2"
+              maxWidth="500"
+              placeholder="Share your Experience"
+              onChange={(e) =>
+                updateFormInput({ ...formInput, description: e.target.value })
+              }
+              rows={2}
+            />
+            <HStack mt="2">
+              <Input
+                maxW="210"
+                placeholder="Location"
+                onChange={(e) =>
+                  updateFormInput({ ...formInput, country: e.target.value })
+                }
               />
-            )}
-          </Box>
+              <Input
+                maxW="210"
+                placeholder="number of people"
+                className="mt-5 border rounded p-4 text-xl"
+                onChange={(e) =>
+                  updateFormInput({ ...formInput, weight: e.target.value })
+                }
+              />
+            </HStack>
 
+            <Input
+              maxWidth="500"
+              placeholder="Enter Polygon Address to mint from"
+              mt="2"
+              onChange={(e) =>
+                updateFormInput({
+                  ...formInput,
+                  collectionPoint: e.target.value,
+                })
+              }
+            />
+
+            <Input
+              maxWidth="500"
+              placeholder="your rate from 1-5"
+              mt="2"
+              onChange={(e) =>
+                updateFormInput({ ...formInput, price: e.target.value })
+              }
+            />
+
+            <Box maxWidth="500" mt="2">
+              <form>
+                <Input maxWidth="500" type="file" onChange={handleFileUpload} />
+              </form>
+              {txStatus && <Text>{txStatus}</Text>}
+
+              {metaDataURL && (
+                <Text className="text-blue">
+                  <a href={metaDataURL} className="text-blue">
+                    Metadata on IPFS
+                  </a>
+                </Text>
+              )}
+
+              {txURL && (
+                <Text>
+                  <a href={txURL} className="text-blue">
+                    mint transaction
+                  </a>
+                </Text>
+              )}
+
+              {errorMessage}
+
+              {imageView && (
+                <iframe
+                  className="mb-10"
+                  title="Ebook "
+                  src={imageView}
+                  alt="NFT preview"
+                  frameBorder="0"
+                  scrolling="auto"
+                  height="50%"
+                  width="100%"
+                />
+              )}
+            </Box>
+          </Stack>
           <Button
             mt="2"
             color="#ff0057"

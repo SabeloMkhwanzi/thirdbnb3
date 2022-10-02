@@ -329,11 +329,11 @@ export const BookingsList = ({
                       Confirmed booking
                     </Button>
 
-                    <HStack spacing={5}>
-                      <Box>
+                    <HStack spacing={5} mt={5}>
+                      <Box height="500">
                         <CreateFlow />
                       </Box>
-                      <Box>
+                      <Box height="500">
                         <Create />
                       </Box>
                     </HStack>
