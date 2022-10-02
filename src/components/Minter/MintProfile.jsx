@@ -155,7 +155,7 @@ const MintProfile = () => {
       <Box
         bg="white"
         _dark={{ bg: "gray.900" }}
-        maxWidth="550"
+        maxWidth="400"
         borderRadius="lg"
         rounded="lg"
         shadow="lg"
@@ -165,10 +165,10 @@ const MintProfile = () => {
         <Text textTransform="uppercase" pb="1" pt="1" textAlign="center">
           Mint Your Experience
         </Text>
-        <Box width="max-content">
+        <Box>
           <Stack direction="vertical">
             <Select
-              maxWidth="500"
+              maxWidth="350"
               textAlign="center"
               onChange={(e) =>
                 updateFormInput({ ...formInput, name: e.target.value })
@@ -194,7 +194,7 @@ const MintProfile = () => {
             </Select>
             <Textarea
               mt="2"
-              maxWidth="500"
+              maxWidth="350"
               placeholder="Share your Experience"
               onChange={(e) =>
                 updateFormInput({ ...formInput, description: e.target.value })
@@ -203,14 +203,14 @@ const MintProfile = () => {
             />
             <HStack mt="2">
               <Input
-                maxW="210"
+                maxW="170"
                 placeholder="Location"
                 onChange={(e) =>
                   updateFormInput({ ...formInput, country: e.target.value })
                 }
               />
               <Input
-                maxW="210"
+                maxW="170"
                 placeholder="number of people"
                 className="mt-5 border rounded p-4 text-xl"
                 onChange={(e) =>
@@ -220,7 +220,7 @@ const MintProfile = () => {
             </HStack>
 
             <Input
-              maxWidth="500"
+              maxWidth="350"
               placeholder="Enter Polygon Address to mint from"
               mt="2"
               onChange={(e) =>
@@ -232,7 +232,7 @@ const MintProfile = () => {
             />
 
             <Input
-              maxWidth="500"
+              maxWidth="350"
               placeholder="your rate from 1-5"
               mt="2"
               onChange={(e) =>
@@ -240,9 +240,9 @@ const MintProfile = () => {
               }
             />
 
-            <Box maxWidth="500" mt="2">
+            <Box maxWidth="350" mt="2">
               <form>
-                <Input maxWidth="500" type="file" onChange={handleFileUpload} />
+                <Input maxWidth="350" type="file" onChange={handleFileUpload} />
               </form>
               {txStatus && <Text>{txStatus}</Text>}
 
