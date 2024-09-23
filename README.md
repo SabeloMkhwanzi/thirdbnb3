@@ -37,16 +37,6 @@
 #### 3. Reservation Page
 ![Reservations Page](https://github.com/SabeloMkhwanzi/thirdbnb3/blob/main/src/logos/thirdbnb%20Screenshot%202022-10-02%20.jpg)
 
-#### Live website: [thirdbnb](https://thirdbnb.vercel.app/)
-
-#### GitHub Repository: [github.com/SabeloMkhwanazi](https://github.com/SabeloMkhwanzi/thirdbnb3)
-
-#### Demo video: [video](https://youtu.be/Tbl0q9CKuYw)
-
-#### Project Start: Date: 2 - 25 September, 2022
-
-#### Wallet Address : 0xF975206a46b4eD9f5F008AF9813B19bf083d94eE
-
 #### Running the app
 
 ### Getting Started
